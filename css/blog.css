@@ -1,0 +1,14 @@
+.post {
+	padding-bottom: 1.5em;
+	border-bottom: .06em solid #ccc;
+	margin-bottom: 1em;
+}
+
+.link-leia-mais {
+	font-size: 1.25rem;
+	font-color: black;
+	font-weight: bold;
+	padding: .6em 1em;
+	display: block;
+	font-family: Open Sans Condensed, sans-serif;
+}

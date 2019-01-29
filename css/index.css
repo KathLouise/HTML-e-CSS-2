@@ -1,0 +1,222 @@
+#titulo-principal{
+    color: #fff;
+    text-align: center; 
+    font-size: 3.75rem;
+}
+
+#subtitulo-principal{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.foto-home {
+    height: 200px;
+    -webkit-border-radius: 10% 50% / 50% 10%;
+    -moz-border-radius: 10% 50% / 50% 10%;
+    -ms-border-radius: 10% 50% / 50% 10%;
+    -o-border-radius: 10% 50% / 50% 10%;
+    border-radius: 10% 50% / 50% 10%;
+}
+
+.palavra-home {
+    font-size: 1rem;
+    position: absolute;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E; 
+}
+
+.eficiencia {
+    top: 20%;
+    left: 75%;
+}
+
+.boas-praticas {
+    top: 70%;
+    left: 20%;
+}
+
+.codigo-limpo {
+    top: 45%;
+    left: 10%;
+}
+
+.css3 {
+    top: 50%;
+    left: 30%;
+}
+
+.html5 {
+    top: 40%;
+    left: 80%;
+}
+
+.javascript {
+    top: 10%;
+    left: 60%;
+}
+
+.acessibilidade {
+    top: 30%;
+    left: 25%;
+}
+
+.responsivo {
+    top: 15%;
+    left: 15%;
+}
+
+.otimizacoes {
+    top: 60%;
+    left: 70%;
+}
+
+.agilidade {
+    top: 10%;
+    left: 30%;
+}
+
+.design {
+    top: 35%;
+    left: 65%;
+}
+
+.saudacao{
+    width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+    padding: 0 1.25em;
+}
+
+.saudacao-inicio {
+    color: #889;
+    font-size: 4rem;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+
+.saudacao strong {
+    color: #000;
+    font-size: 2rem;
+}
+
+.saudacao em {
+    color: #851944;
+    font-size: 3.75rem;
+}
+
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 400px;
+    display: block;
+    text-align: center;
+    padding: .6em;
+    margin: 2em auto;
+}
+
+.secao-inicio h2 {
+    text-transform: uppercase;
+}
+
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    padding: 1.25em;
+}
+
+.trabalhos h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+    margin: 1em;
+}
+
+.trabalhos ul {
+    overflow: hidden;
+    border: 10px solid black;
+    margin: 2em;
+}
+
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+    padding: 4em;
+    position: relative;
+}
+
+.blog h2{
+    font-size: 2.5rem;
+}
+
+.blog li {
+    margin: 1em;
+    width: 30%;
+    padding: .6em;
+}
+
+.blog li a {
+    color: #FCF;
+}
+
+.inicio-post {
+    position: absolute;
+    right: 15%;
+    top: 16%;
+    background-color: #F2FFFC;
+    color: black;
+    padding: 1.5em;
+    height: 8em;
+}
+
+.mais-recente {
+    background-color: #F2FFFC;
+
+}
+
+.mais-recente a {
+    color: #F26;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 4em;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}

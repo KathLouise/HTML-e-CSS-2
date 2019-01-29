@@ -1,0 +1,160 @@
+html {
+    font-size: 120%;
+}
+
+header {
+    position: relative;
+}
+
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo {
+	background-color: #851944;
+	color: #fff;
+	text-align: center;	
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    border-bottom: 0.2em solid #000;
+    padding: .5em;
+}
+
+.subtitulo {
+    font-size: 1.875rem;
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 85%;
+    padding-bottom: 3.125em;
+}
+
+main a {
+	color: #851944;
+}
+
+p {
+	/*text-align: justify;*/
+    margin: 1.25em 0;
+}
+
+.conteudo-principal {
+    width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.875em 0;
+
+}
+
+.barra-navegacao {
+	background-color: #3C1D3D;
+    color: #F2FFFC;
+    box-sizing: border-box;
+    position: relative;
+    top: 17em;
+    width: 15%;
+}
+
+.barra-navegacao div {
+    text-align: center;
+  
+}
+
+.titulo-pagina-nav {
+    font-size: 1.875rem;
+}
+
+.barra-navegacao, footer {
+    /*mais espaço entre o texto e as bordas da caixa*/
+    padding: 1.25em;
+}
+
+.links-paginas {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    color: inherit;
+    text-transform: lowercase;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+ul{
+    list-style-type: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+.icones-redessociais li {
+    display: inline-block;
+}
+
+.icones-redessociais a {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+}
+
+.icones-redessociais {
+    margin-top: 1.25em;
+}
+
+#rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+
+}
+
+.barra-navegacao, #foto-joao {
+    float: right;
+    box-sizing: border-box;
+    border-bottom: .625em solid #000;
+    border-left: .625em solid #000;
+}
+
+
+#foto-joao{
+    width: 17em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
