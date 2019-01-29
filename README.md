@@ -3,3 +3,5 @@ Continuação do curso da Alura HTML5 e CSS3 II: Turbinando as suas páginas, de
 
 # Proposta
 Trazer outros elementos que enriqueção o site do desenvolvedor Front-End fictício. 
+
+Curso em Andamento
