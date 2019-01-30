@@ -20,12 +20,17 @@ body {
     color: #fff;
     text-align: center; 
     font-size: 3.75rem;
+    text-shadow: 5px 5px #000;
 }
 
 .subtitulo-principal{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     text-align: center;
     font-size: 1rem;
+}
+
+.subtitulo {
+    text-shadow: 5px 5px #000;
 }
 
 .foto-home {
@@ -50,13 +55,14 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     font-size: 100%;
-    color: #D5447E;
+    color: rgba(255, 127, 127, 0.5);
     position: absolute;
 }
 
 .eficiencia {
     top: 40%;
     left: 60%;
+    opacity: .9;
     -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
 }
@@ -64,6 +70,7 @@ body {
 .boas-praticas {
     top: 70%;
     left: 20%;
+    opacity: .5;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
 }
@@ -71,6 +78,7 @@ body {
 .codigo-limpo {
     top: 45%;
     left: 25%;
+    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
 }
@@ -78,6 +86,7 @@ body {
 .css3 {
     top: 55%;
     left: 35%;
+    opacity: .6;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
 }
@@ -85,6 +94,7 @@ body {
 .html5 {
     top: 30%;
     left: 65%;
+    opacity: .7;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
@@ -92,6 +102,7 @@ body {
 .javascript {
     top: 15%;
     left: 60%;
+    opacity: .4;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
 }
@@ -99,6 +110,7 @@ body {
 .acessibilidade {
     top: 30%;
     left: 35%;
+    opacity: .8;
     -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
 }
@@ -106,6 +118,7 @@ body {
 .responsivo {
     top: 40%;
     left: 40%;
+    opacity: .8;
     -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
 }
@@ -113,6 +126,7 @@ body {
 .otimizacoes {
     top: 70%;
     left: 65%;
+    opacity: .5;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
 }
@@ -120,6 +134,7 @@ body {
 .agilidade {
     top: 75%;
     left: 35%;
+    opacity: 0.4;
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
 }
@@ -127,6 +142,7 @@ body {
 .design {
     top: 40%;
     left: 60%;
+    opacity: .5;
     -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
@@ -188,6 +204,15 @@ body {
     border-top: 10px solid #000;
     border-bottom: 10px solid #000;
     padding: 1.25em;
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 
 .trabalhos h2 {
@@ -218,6 +243,15 @@ body {
     border-bottom: 10px solid #851944;
     padding: 4em;
     position: relative;
+    background-image: linear-gradient(-135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(255, 255, 255, 0.1) 14px,
+                        rgba(255, 255, 255, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 
 .blog h2{

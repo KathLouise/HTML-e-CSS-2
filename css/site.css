@@ -51,7 +51,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding: 1.875em 0;
-
 }
 
 .barra-navegacao {
@@ -125,13 +124,15 @@ em {
     margin-top: 1.25em;
 }
 
-#rodape-pagina {
-	background-color: #000;
+.rodape-pagina {
 	color: #F2FFFC;
 	clear: both;
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
 }
 
 .fiat {
