@@ -1,10 +1,28 @@
-#titulo-principal{
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    -webkit-perspective: 6px;
+            perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+            perspective-origin: 50% 160px;
+}
+
+.titulo {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+}
+
+.titulo-principal{
     color: #fff;
     text-align: center; 
     font-size: 3.75rem;
 }
 
-#subtitulo-principal{
+.subtitulo-principal{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     text-align: center;
     font-size: 1rem;
@@ -19,67 +37,98 @@
     border-radius: 10% 50% / 50% 10%;
 }
 
-.palavra-home {
-    font-size: 1rem;
+.palavras-home {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
     position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.palavra-home {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
-    color: #D5447E; 
+    font-size: 100%;
+    color: #D5447E;
+    position: absolute;
 }
 
 .eficiencia {
-    top: 20%;
-    left: 75%;
+    top: 40%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
 }
 
 .boas-praticas {
     top: 70%;
     left: 20%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
 }
 
 .codigo-limpo {
     top: 45%;
-    left: 10%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
 }
 
 .css3 {
-    top: 50%;
-    left: 30%;
+    top: 55%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
 }
 
 .html5 {
-    top: 40%;
-    left: 80%;
+    top: 30%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
 
 .javascript {
-    top: 10%;
+    top: 15%;
     left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
 }
 
 .acessibilidade {
     top: 30%;
-    left: 25%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
 }
 
 .responsivo {
-    top: 15%;
-    left: 15%;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
 }
 
 .otimizacoes {
-    top: 60%;
-    left: 70%;
+    top: 70%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
 }
 
 .agilidade {
-    top: 10%;
-    left: 30%;
+    top: 75%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
 }
 
 .design {
-    top: 35%;
-    left: 65%;
+    top: 40%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
 
 .saudacao{
@@ -113,7 +162,10 @@
 
 .saudacao em {
     color: #851944;
-    font-size: 3.75rem;
+    font-size: 4rem;
+    display: inline-block;
+    transform: rotate(-5deg) skew(-10deg);
+
 }
 
 .botao-index {
@@ -219,4 +271,34 @@ main {
     width: 100%;
     padding-bottom: 0;
     float: none;
+}
+
+.twitter-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    line-height: 1;
+
+    /* largura = 14em */
+    /* altura = 3.5em */
+    /* tx = .707 * h - .707 * w + w */
+    /* ty = -.707 * h */
+    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
+            transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+
+    width: 14em;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2rem;
+    font-family: "Open Sans Condensed", sans-serif;
 }
