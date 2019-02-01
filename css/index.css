@@ -260,7 +260,7 @@ body {
 
 .blog li {
     margin: 1em;
-    width: 30%;
+    width: 16.5%;
     padding: .6em;
 }
 
@@ -268,23 +268,31 @@ body {
     color: #FCF;
 }
 
-.inicio-post {
+.blog .inicio-post {
     position: absolute;
     right: 15%;
-    top: 16%;
+    top: 20%;
     background-color: #F2FFFC;
     color: black;
     padding: 1.5em;
-    height: 8em;
+    height: 10em;
+    width: 60em;
+    display: none;
 }
 
-.mais-recente {
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+
+.mais-recente:hover, 
+.mais-recente:focus {
     background-color: #F2FFFC;
-
 }
 
-.mais-recente a {
-    color: #F26;
+.mais-recente a:hover,
+.mais-recente a:focus {
+    color: #F26; 
 }
 
 footer {

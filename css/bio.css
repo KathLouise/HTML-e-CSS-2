@@ -12,3 +12,31 @@
     font-style: italic;
     float: right;
 }
+
+.citacao:nth-of-type(odd){
+    float: right;
+}
+
+.citacao:nth-of-type(even){
+    float: left;
+}
+
+.conteudo-principal > p::first-letter {
+    font-size: 200%;
+    font-style: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px black;
+}
+
+.citacao::before{
+    content: '“';
+    color: #bbb;
+    font-size: 10em;
+    position: absolute;
+    line-height: 1;
+    font-family: 'Merriweather', serif;
+}
+
+.citacao > p {
+    position: relative;
+}

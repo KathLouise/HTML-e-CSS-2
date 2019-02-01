@@ -118,6 +118,32 @@ em {
     display: inline-block;
     width: 2em;
     height: 2em;
+    position: relative;
+}
+
+.icones-redessociais a:hover::before,
+.icones-redessociais a:focus::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: #000;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
+}
+
+.icones-redessociais a:hover::after,
+.icones-redessociais a:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 150%;
+    right: 0%;
+    text-indent: 0;
+    background: #000;
+    color: #fff;
+    width: 150px;
+    font-size: .75rem;
 }
 
 .icones-redessociais {
@@ -135,15 +161,6 @@ em {
     box-sizing: border-box;
 }
 
-.fiat {
-    float: right;
-}
-
-.petrobras {
-    float: left;
-
-}
-
 .barra-navegacao, #foto-joao {
     float: right;
     box-sizing: border-box;
@@ -158,4 +175,16 @@ em {
     top: 0;
     right: 0;
     box-sizing: border-box;
+}
+
+main a:hover, 
+footer a:hover, 
+main a:focus, 
+footer a:focus {
+    color: red;
+}
+
+.barra-navegacao a:hover, 
+.barra-navegacao a:focus{
+    text-shadow: 0 0 5px pink;
 }
