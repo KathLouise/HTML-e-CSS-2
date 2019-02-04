@@ -33,7 +33,8 @@ h1, h2 {
 
 main {
     float: left;
-    width: 85%;
+    /*pega o que sobra e diminui do 100% da tela, para definir a largura*/
+    width: calc(100% - 0.9 * 300px);
     padding-bottom: 3.125em;
 }
 
@@ -42,7 +43,7 @@ main a {
 }
 
 p {
-	/*text-align: justify;*/
+	text-align: justify;
     margin: 1.25em 0;
 }
 
@@ -59,7 +60,8 @@ p {
     box-sizing: border-box;
     position: relative;
     top: 17em;
-    width: 15%;
+    /*calcula a porcentagempara definir a largura da barra lateral*/
+    width: calc(0.9*300px);
 }
 
 .barra-navegacao div {
@@ -167,7 +169,6 @@ em {
     border-bottom: .625em solid #000;
     border-left: .625em solid #000;
 }
-
 
 #foto-joao{
     width: 17em;

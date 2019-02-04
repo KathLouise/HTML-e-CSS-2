@@ -1,50 +1,97 @@
-form {
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-}
-
-legend, label[for="mensagem"] {
+legend,
+label[for="mensagem"] {
     font-weight: bold;
-    margin: 1em;
-    font-size: 150%;
+    font-size: 1.6rem;
+    margin-top: 1em;
 }
 
-fieldset:not(.inline) label{
+label[for],
+button {
     display: block;
 }
 
-#nome, #email, #mensagem{
+input[type="text"],
+input[type="email"], 
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    padding: .25em .5em;
     width: 100%;
+    box-sizing: border-box;
     border: 1px solid #ccc;
-    padding: 1em;
 }
 
-#nome:hover, 
-#email:hover,
-#nome:focus,
-#email:focus,
-#mensagem:hover,
-#mensagem:focus {
-    background: rgba(255, 245, 163, 0.5);
-}
-
-input:invalid, 
-#mensagem:invalid {
-    box-shadow: 0 0 5px #ff0000;
-}
-
-button{
+button {
     border: 0;
     padding: .5em 1em;
+    font-family: "Open Sans Condensed", sans-serif;
     background-color: #3C1D3D;
     color: white;
     font-size: 1.2em;
     margin-left: auto;
     margin-top: 1em;
-    position: relative;
-    left: 78%;
 }
 
-button:hover,
-button:focus{
-    background-color:#8C1D3D; 
+input:invalid {
+    box-shadow: 0 0 3px red;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #FFD;
+}
+
+button:focus {
+    background-color: #8C1D3D;
+}
+
+fieldset > fieldset {
+    display: inline;
+}
+
+label[for="outro"] {
+    display: inline;
+}
+
+input[name="outro-assunto"] {
+    width: auto;
+}
+
+input[value="Outro"] ~ input {
+    display: none;
+}
+
+input[value="Outro"]:checked ~ input {
+    display: inline;
+}
+
+label[for="nome"], label[for="email"]{
+    position: relative;
+}
+
+#nome, #email{
+    width: calc(100% - 2em);
+    position: relative;
+    left:2em;
+}
+
+label[for="nome"]::after{
+    background-image: url("../img/usuario.png");
+}
+
+label[for="email"]::after{
+    background-image: url("../img/email.png");
+}
+
+label[for="nome"]::after, label[for="email"]::after{
+    content: "";
+    background-color: #8C1D3D;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 100%;
+    left: 0%;
 }
