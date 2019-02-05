@@ -6,6 +6,8 @@
     width: 15em;
     box-sizing: border-box;
     padding: 1.25em;
+    transition: box-shadow 1s ease-in-out, transform 1s linear;
+    transition-delay: 1s, 0s;
 }
 
 .autor{
@@ -19,6 +21,22 @@
 
 .citacao:nth-of-type(even){
     float: left;
+}
+
+.citacao:hover,
+.citacao:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    transition-delay: 0s, 1s;
+}
+
+.citacao:nth-of-type(odd):hover,
+.citacao:nth-of-type(odd):focus {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.citacao:nth-of-type(even):hover,
+.citacao:nth-of-type(even):focus {
+    transform: scale(1.2) rotate(-5deg);
 }
 
 .conteudo-principal > p::first-letter {

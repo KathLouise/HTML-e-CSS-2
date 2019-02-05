@@ -10,6 +10,8 @@ body {
     font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
     line-height: 1.5;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 h1, h2 {
@@ -32,7 +34,7 @@ h1, h2 {
 }
 
 main {
-    float: left;
+    flex-grow: 1;
     /*pega o que sobra e diminui do 100% da tela, para definir a largura*/
     width: calc(100% - 0.9 * 300px);
     padding-bottom: 3.125em;
@@ -66,7 +68,7 @@ p {
 
 .barra-navegacao div {
     text-align: center;
-  
+
 }
 
 .titulo-pagina-nav {
@@ -164,7 +166,6 @@ em {
 }
 
 .barra-navegacao, #foto-joao {
-    float: right;
     box-sizing: border-box;
     border-bottom: .625em solid #000;
     border-left: .625em solid #000;
