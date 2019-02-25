@@ -1,11 +1,3 @@
-# HTML-e-CSS-2
-Continuação do curso da Alura HTML5 e CSS3 II: Turbinando as suas páginas, de HTML5 e CSS3, porém introduzindo alguns elementos mais complexos das duas linguagens.
-
-# Proposta
-Trazer outros elementos que enriqueção o site do desenvolvedor Front-End fictício. 
-
-Curso em Andamento
-
 # Joao-da-Silva-Website
 
 Projeto de um website de um desenvolvedor front-end fictício, que utiliza os conceitos de HTML5 e CSS3 somente. A proposta desse projeto foi conhecer essas duas linguagens e saber usar vários recursos que antes precisavam ser feitos de outras formas, necessitando de JAvaScript ou JQuery, mas que agora fazem parte principalmente do CSS.
